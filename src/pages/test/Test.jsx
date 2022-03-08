@@ -4,7 +4,9 @@ import DefaultLayout from "../../layouts/DefaultLayout";
 const Test = () => {
   return (
     <div>
-      <DefaultLayout>test</DefaultLayout>
+      <DefaultLayout>
+        <h1>Test</h1>
+      </DefaultLayout>
     </div>
   );
 };

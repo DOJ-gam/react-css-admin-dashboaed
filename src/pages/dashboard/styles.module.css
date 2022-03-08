@@ -1,0 +1,12 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0.5rem;
+  gap: 2rem;
+}
+
+.cardItem {
+  flex: 1;
+  align-self: stretch;
+}

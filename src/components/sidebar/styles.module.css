@@ -1,12 +1,12 @@
 .container {
-  min-height: 90vh;
+  min-height: 100vh;
   padding: 4rem 1rem;
 }
 
 .navItems {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 2rem;
   transition: all 0.5s linear;
 }
 
@@ -18,10 +18,12 @@
 .navItem a {
   font-size: 2rem;
   padding: 1rem;
+  flex: 1;
 }
 
 .navItem a:hover {
   background-color: white;
   border: 1px solid white;
+  border-radius: 10px;
   color: #333;
 }
