@@ -1,0 +1,27 @@
+.container {
+  min-height: 90vh;
+  padding: 4rem 1rem;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  transition: all 0.5s linear;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.navItem a {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.navItem a:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #333;
+}
