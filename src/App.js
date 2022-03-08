@@ -1,10 +1,10 @@
-// import './App.css';
+import "./global.css";
 
 import Dashboard from "./pages/dashboard/Dashboard";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Dashboard />
     </div>
   );
