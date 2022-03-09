@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div>
       <DefaultLayout>
-        <h1 className="heading">Loan Stats</h1>
+        <h1 className="--heading">Loan Stats</h1>
         <div className={styles.cardContainer}>
           <div className={styles.cardItem}>
             <Card heading="Total Loans" amount={49000} />

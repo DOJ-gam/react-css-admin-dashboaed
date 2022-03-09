@@ -27,6 +27,29 @@ a {
   font-size: 1.6rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.6rem;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  /* width: 100%; */
+}
+th {
+  background-color: #333;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
 /* layout */
 .defaultLayout {
 }
@@ -43,21 +66,27 @@ a {
 .defaultLayout .main .children {
   flex: 6;
 }
+/* layout */
 
 /*  ********************  */
-.bg-dark {
+.--bg-dark {
   background-color: #343a40;
   color: white;
 }
 
-.text-white {
+.--text-white {
   color: white;
 }
 
-.heading {
-  text-align: center;
+.--heading {
   font-weight: bold;
   font-size: 3rem;
   border-bottom: 2px solid #ccc;
   width: max-content;
+  margin: 4rem;
 }
+
+.--text-center {
+  text-align: center;
+}
+/*  ********************  */ ;

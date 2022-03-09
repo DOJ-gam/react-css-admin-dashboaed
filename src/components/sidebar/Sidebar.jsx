@@ -4,7 +4,7 @@ import * as styles from "./styles.module.css";
 import { MdOutlineDashboard, MdOutlineAddRoad } from "react-icons/md";
 const Sidebar = () => {
   return (
-    <div className={`${styles.container} bg-dark }`}>
+    <div className={`${styles.container} --bg-dark }`}>
       <div className={styles.navItems}>
         <div className={styles.navItem}>
           <MdOutlineDashboard size={40} color="white" />
@@ -12,7 +12,7 @@ const Sidebar = () => {
         </div>
         <div className={styles.navItem}>
           <MdOutlineAddRoad size={40} color="white" />
-          <Link to="/test">Test</Link>
+          <Link to="/test">Users</Link>
         </div>
       </div>
     </div>
