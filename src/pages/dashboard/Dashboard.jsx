@@ -10,7 +10,11 @@ const Dashboard = () => {
         <h1 className="--heading">Loan Stats</h1>
         <div className={styles.cardContainer}>
           <div className={styles.cardItem}>
-            <Card heading="Total Loans" amount={49000} />
+            <Card
+              heading="Total Loans"
+              amount={49000}
+              icon="IoAddCircleOutline"
+            />
           </div>
           <div className={styles.cardItem}>
             <Card heading="Users On Loan" amount={2100} />
